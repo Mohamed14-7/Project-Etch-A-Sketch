@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #5a236c;
+  background-image: linear-gradient(to bottom right, #392270, #e9275b);
+}
+button {
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 27px 0;
+  width: 80px;
+  color: #fff;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  margin: 0 20px;
+  box-shadow: 0 0 10px #fff, 0 0 10px #fff inset;
+}
+/* Container */
+.container {
+  text-align: center;
+}
+.container h1 {
+  text-shadow: 0 0 13px #fff;
+  margin: 30px 0 20px 0;
+  font-size: 55px;
+  color: #fff;
+}
+/* info */
+.container .info {
+  color: rgb(11, 67, 61);
+  padding: 12 0;
+  margin: 20px;
+  font-size: 30px;
+}
+
+/* createGrid */
+.container .createGrid {
+  margin: 20px;
+}
+
+.container .createGrid button:hover {
+  box-shadow: #565656 0 0px 30px;
+}
+
+/* Grid Option */
+.container .gridOption {
+  margin: 30px;
+}
+.boxes {
+  display: inline-grid;
+  grid-gap: 1px;
+  border: 5px solid #5a236c;
+  border-radius: 2px;
+  box-shadow: 0 0 30px #392270;
+}
+.box {
+  height: 23px;
+  width: 23px;
+  background-color: #fff;
+}
+.grid_10 {
+  grid-template-columns: repeat(10, auto);
+}
+.grid_10 > div {
+  height: 47px;
+  width: 47px;
+}
+.grid_20 {
+  grid-template-columns: repeat(20, auto);
+}
+.grid_20 > div {
+  height: 23px;
+  width: 23px;
+}
+.grid_30 {
+  grid-template-columns: repeat(30, auto);
+}
+.grid_30 > div {
+  height: 15px;
+  width: 15px;
+}
+.active {
+  box-shadow: 0 0 30px #f44d9b, 0 0 2px #f44d9b inset;
+}

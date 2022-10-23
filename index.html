@@ -4,9 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/master.css" />
     <title>Projct Etch A Sketch</title>
   </head>
   <body>
+    <!-- Start of Container -->
+    <div class="container">
+      <!-- info about project -->
+      <h1>Etch A Sketch</h1>
+      <div class="info">
+        <p style="color: #fff">Choose the color, and the grid of the board</p>
+      </div>
+      <!-- The Face of the gird -->
+      <div class="createGrid">
+        <button class="grid_10 circle">10x10</button>
+        <button class="grid_20 circle">20x20</button>
+        <button class="grid_30 circle">30x30</button>
+      </div>
+      <!-- Grid Options -->
+      <div class="gridOption">
+        <button class="clear">Clear</button>
+        <input type="color" class="btnColor" />
+      </div>
+    </div>
+    <!-- End of Container -->
     <script src="js/main.js"></script>
   </body>
 </html>
